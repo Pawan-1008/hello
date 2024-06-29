@@ -1,7 +1,4 @@
-package main
+package hello
 
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, From another world!")
-}
+// AnotherExportedVariable is an exported variable from the hello package
+var AnotherExportedVariable = "This is an exported variable from the hello package"
